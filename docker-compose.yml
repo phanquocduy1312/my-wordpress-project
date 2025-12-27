@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # 1. Database Service (MySQL)
+  db:
+    image: mysql:latest
+    container_name: wp_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppassword
+    volumes:
+      - db_data:/var/lib/mysql # Yêu cầu Persistence: Dữ liệu không mất khi restart
+   
+
+  # 2. WordPress Service
+  wordpress:
+    image: wordpress:latest
+    container_name: wp_app
+    depends_on:
+      - db
+    ports:
+      - "8000:80" # Yêu cầu: Chạy trên port 8000
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppassword
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      # Yêu cầu Code Sync: Map thư mục wp-content để Dev code trên máy thật
+      - ./wp-content:/var/www/html/wp-content
+
+  # 3. phpMyAdmin Service
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: wp_pma
+    depends_on:
+      - db
+    ports:
+      - "8080:80" # Yêu cầu: Chạy trên port 8080
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: rootpassword
+
+# Định nghĩa Volume cho Database
+volumes:
+  db_data:
