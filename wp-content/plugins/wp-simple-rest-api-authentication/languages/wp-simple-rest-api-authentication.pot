@@ -1,0 +1,181 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-01-15 18:22-0800\n"
+"PO-Revision-Date: 2021-04-03 12:44-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/WC/Admin/Form/Form.php:672
+msgid "Hard crop?"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:726
+msgid "Choose a country&hellip;"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:726 includes/WC/Admin/Form/Form.php:751
+msgid "Country"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:751
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:759
+msgid "Select all"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:759
+msgid "Select none"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:768
+msgid "Day(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:769
+msgid "Week(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:770
+msgid "Month(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:771
+msgid "Year(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/FormFilter.php:149
+msgid " is invalid"
+msgstr ""
+
+#: includes/WC/Admin/PageForm/AbstractPageForm.php:260
+msgid "Form data have been successfully saved"
+msgstr ""
+
+#: includes/WC/Admin/PageForm/AbstractPageForm.php:270
+msgid "Unable to save form data"
+msgstr ""
+
+#: includes/WP/Admin/Notices/Notices.php:324
+msgid "Dismiss"
+msgstr ""
+
+#: includes/WP/PluginDependency/PluginDependency.php:117
+msgid "requires the following plugins to be installed and activated:"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:89
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:89
+msgid "Require SSL"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:93
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:93
+msgid "Require SSL for all requests"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:98
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:98
+msgid "Debug"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:105
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:105
+msgid "Do you experience any issues?"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:106
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:106
+msgid "Enable a debug mode, reproduce the issue, while recording screen with"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:107
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:107
+msgid "then"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:109
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:109
+msgid "click to download a log file"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:110
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:110
+msgid "and send it via our"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:112
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:112
+msgid "contact form"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:113
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:113
+msgid "with the detailed description of the issue"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:124
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:124
+msgid "Save Changes"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:140
+#: src/WP/SimpleRestApiAuthentication/Admin/GeneralForm.php:140
+msgid "Settings have been successfully saved"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Plugin.php:137
+#: src/WP/SimpleRestApiAuthentication/Plugin.php:139
+msgid "Settings"
+msgstr ""
+
+#: includes/WP/SimpleRestApiAuthentication/Plugin.php:220
+#: src/WP/SimpleRestApiAuthentication/Plugin.php:222
+msgid "WooCommerce"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:39
+#: wp-simple-rest-api-authentication.php:42
+#: wp-simple-rest-api-authentication.php:58
+msgid "Simple REST API Authentication for WordPress"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:43
+msgid "Enables Basic Authentication to WordPress REST API using WooCommerce API credentials."
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:45
+msgid "Do you have any questions or requests?"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:47
+msgid "Do you like our plugin and can recommend it to others?"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:59
+msgid "plugin can not be loaded."
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:60
+msgid "Please contact"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:62
+msgid "1TeamSoftware support"
+msgstr ""
+
+#: wp-simple-rest-api-authentication.php:63
+msgid "for assistance."
+msgstr ""
